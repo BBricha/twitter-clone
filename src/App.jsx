@@ -16,7 +16,7 @@ function App() {
         let arrayFromCollection = res.data;
         // res.status res.something res.data
         // now we have array  of tweets from database
-        console.log(res);
+        // console.log(res);
         setTweets(arrayFromCollection)
       })
     }, []);
